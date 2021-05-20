@@ -281,6 +281,44 @@ color: white;
   align-items: center;
   margin-top: -20px;
 }
+.cs-problem-statement-row{
+  display: flex;
+  flex-direction: row;
+}
+.cs-ps-title-row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 75px;
+}
+.cs-ps-description-row {
+  display: flex;
+  flex-direction: column;
+  padding-right: 50px;
+}
+.cs-project-details-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.cs-mission-row {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  padding-top: 75;
+  padding-bottom: 0px;
+}
+.cs-2image-row {
+  display: flex;
+  flex-direction: row;
+}
+.cs-2image {
+  float: left;
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+}
 
 
 /* Columns */
@@ -340,7 +378,15 @@ color: white;
   padding: 20px;
   color: #2B2B2B;
 }
-
+.cs-heading-row {
+  float: left;
+  width: 100%;
+  padding-top: 100px;
+  padding-left: 75px;
+  padding-bottom: 20px;
+  color: #2B2B2B;
+  background-color: #EEEEEE;
+}
 .process-research-row {
   float: inline-end;
   padding: 20px;
@@ -372,7 +418,13 @@ color: white;
   display: flex;
   flex-direction: row;
 }
-
+.cs-img-fluid {
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  flex-direction: row;
+  align-items: center;
+}
 
 /* Slideshow */
 /* Slideshow container */
