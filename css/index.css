@@ -2,9 +2,11 @@
 /* Text */
 h1, h2, h3 , h4, h5, h6 {
   font-family: 'Poppins', sans-serif;
+  margin: 10px;
 }
 p {
   font-family: Arial, Helvetica, sans-serif;
+  margin: 10px;
 }
 
 
@@ -248,17 +250,47 @@ color: white;
 /* Highlighted Case Study */
 .about-row {
   display: flex;
-  margin-top: 100px;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 0px;
   margin-bottom: 0px;
+}
+.cs-about-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.cs-research-row {
+  display: flex;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 .heading-row {
   margin: 0px;
   padding: 0px;
-  padding-bottom: -50px;
+}
+.heading-row-right-justified {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-right: 50px;
+
 }
 .mission-row {
   display: flex;
-  margin-top: 20px;
+  flex-direction: row;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 75;
+  padding-bottom: 0px;
+  background-color: #ffffff;
+}
+.cs-mission-row {
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
   margin-bottom: 0px;
   padding-top: 75;
   padding-bottom: 0px;
@@ -275,6 +307,13 @@ color: white;
 .description-row {
   margin-top: 80px;
 }
+.introduction-row{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 100px;
+  padding-left: 50px;
+}
 .hero-about-text {
   display: flex;
   flex-direction: row;
@@ -284,6 +323,10 @@ color: white;
 .cs-problem-statement-row{
   display: flex;
   flex-direction: row;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 .cs-ps-title-row {
   display: flex;
@@ -300,14 +343,42 @@ color: white;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  margin-top: 100px;
+  margin-bottom: 0px;
+  margin-left: 50px;
+  margin-right: 0px;
 }
 .cs-mission-row {
   display: flex;
   flex-direction: row;
-  margin-top: 20px;
-  margin-bottom: 0px;
-  padding-top: 75;
-  padding-bottom: 0px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 30px;
+  padding-right: 0px;
+  background-color: #EEEEEE;
+}
+.cs-value-row {
+  display: flex;
+  flex-direction: row;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 30px;
+  padding-right: 0px;
+}
+.cs-research-row {
+  display: flex;
+  flex-direction: row;
+  padding-left: 30px;
+  padding-right: 0px;
+}
+.cs-problem-row {
+  display: flex;
+  flex-direction: row;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 30px;
+  padding-right: 0px;
+  background-color: #EEEEEE;
 }
 .cs-2image-row {
   display: flex;
@@ -326,7 +397,7 @@ color: white;
   display: flex;
   flex-direction: column;
   width: 50%;
-  padding: 20px;
+  padding: 0px;
   color: #2B2B2B;
 }
 .column {
@@ -339,7 +410,6 @@ color: white;
 .column1 {
   display: flex;
   width: 50%;
-  padding: 20px;
   color: #2B2B2B;
 }
 .column-copy {
@@ -355,9 +425,8 @@ color: white;
 .column2 {
   display: flex;
   flex-direction: column;
-  padding: 20px;
   padding-left: 50px;
-  margin-top: 20px;
+  padding-right: 50px;
   content: "";
   display: table;
   clear: both;
@@ -382,7 +451,8 @@ color: white;
   float: left;
   width: 100%;
   padding-top: 100px;
-  padding-left: 75px;
+  padding-left: 50px;
+  padding-right: 50px;
   padding-bottom: 20px;
   color: #2B2B2B;
   background-color: #EEEEEE;
@@ -417,6 +487,9 @@ color: white;
 .processCallout {
   display: flex;
   flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  margin-bottom: -20px;
 }
 .cs-img-fluid {
   max-width: 100%;
@@ -424,6 +497,14 @@ color: white;
   flex-wrap: wrap-reverse;
   flex-direction: row;
   align-items: center;
+}
+.infoCallout {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: flex-start;
+  margin-left: 25px;
+  margin-right: 50px;
 }
 
 /* Slideshow */
